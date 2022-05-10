@@ -1,0 +1,32 @@
+
+.toaddmarginintop{
+    height: 50px;
+}
+
+.Womenshead{
+    margin-left: 10%;
+    /* border: 2px solid rgb(0, 38, 255); */
+    width: 50%;
+    margin-top: 10px;
+    text-decoration: underline rgb(247, 243, 9);
+}
+.Womensmain{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.Womensright{
+
+    width: 30%;
+}
+.Womensleft{
+ 
+    max-width: 70%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}

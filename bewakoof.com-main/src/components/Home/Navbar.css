@@ -1,0 +1,87 @@
+.Nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+z-index: 1;
+position: fixed;
+background-color: white;
+margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+ 
+   
+}
+
+.Navleft {
+    width: 55%;
+    height: 60px;
+   display: flex;
+   align-self: center;
+   justify-content: space-between;
+   margin-right: 250px;
+   margin-top: 40px;
+
+}
+.Navleft li{
+ /* margin-top: 60px; */
+ 
+  text-decoration: none;
+  color: black;
+  height: 40px;
+  list-style: none;
+
+};
+.Navleft li link{
+  text-decoration: none;
+}
+.no{
+    text-decoration: none;
+  align-self: center;
+    color: black;
+  font-size: 20px;
+  
+}
+
+.Navright {
+    width: 45%;
+    height: 60px;
+   display: flex;
+   align-self: center;
+   justify-content: space-around;
+   align-content: flex-end;
+   font-size: 20px;
+
+}
+
+.alignself{
+    align-self: center;
+}
+
+.alignself span{
+ 
+  position: absolute;
+
+}
+.icon {
+ 
+  padding: 10px;
+  min-width: 40px;
+  margin-top: 8px;
+}
+
+.searchbox{
+ 
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  opacity: 80%;
+  background-color: rgb(245, 243, 243);
+ 
+}
+
+.icon-navbar{
+  color: #0ba0a0;
+}
